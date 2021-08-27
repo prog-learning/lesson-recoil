@@ -9,7 +9,7 @@ function App() {
       <h1>Lesson Recoil</h1>
       <Atom />
       <Selector />
-      <User />
+      {/* <User /> */}
       <SelectorAsync />
     </div>
   );
