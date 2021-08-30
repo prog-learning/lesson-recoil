@@ -26,6 +26,7 @@ const toUpperCaseUserName = selector({
     /* setを使って他のatomの値を変更できる  */
     set(userNameState, newValue.toUpperCase());
     set(upperCountState, (prev) => prev + newValue.length);
+    // return は不要
   },
 });
 

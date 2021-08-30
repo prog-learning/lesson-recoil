@@ -1,6 +1,8 @@
 import { Atom } from './Atom';
+import { AtomFamily } from './AtomFamily';
 import { Selector } from './Selector';
 import { SelectorAsync } from './SelectorAsync';
+import { SelectorFamily } from './SelectorFamily';
 import { User } from './User';
 
 function App() {
@@ -9,8 +11,10 @@ function App() {
       <h1>Lesson Recoil</h1>
       <Atom />
       <Selector />
-      {/* <User /> */}
       <SelectorAsync />
+      <AtomFamily />
+      <SelectorFamily />
+      {/* <User /> */}
     </div>
   );
 }
