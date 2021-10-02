@@ -1,8 +1,8 @@
 import { atom } from 'recoil';
 
-export const countState = atom({
-  key: 'count-state',
-  default: 0,
+export const helloState = atom({
+  key: 'hello-state',
+  default: 'hello recoil',
 });
 
 export const userState = atom({
@@ -15,6 +15,6 @@ export const userState = atom({
 });
 
 export const todoState = atom({
-  key: 'count-state',
+  key: 'todo-state',
   default: null,
 });
